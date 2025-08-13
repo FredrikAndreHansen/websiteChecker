@@ -1,4 +1,6 @@
-﻿$FullPath = "C:\Users\Fredrik\CustomDesktop\WebDev\PowerShell\website_checker";
+﻿Add-Type -AssemblyName System.Windows.Forms
+
+$FullPath = "C:\Users\Fredrik\CustomDesktop\WebDev\PowerShell\website_checker";
 . $FullPath\drawGui.ps1;
 . $FullPath\checkConnections.ps1;
 
